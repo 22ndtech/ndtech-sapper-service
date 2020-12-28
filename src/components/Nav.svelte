@@ -17,9 +17,17 @@
   		class="logo"
   		href="/"
   	>
-  		News App
+  		22nd Tech
   	</a>
   </div>
+
+  <div>
+    <ul>
+         <li><a href="contact">Contact</a></li>
+        <li><a href="about">About</a></li>
+    </ul>
+</div>
+
   <div class="navbar-right">
     {#if $session.user}
       <span class="username">
@@ -48,3 +56,27 @@
     {/if}
   </div>
 </nav>
+
+<style>
+	nav div {
+		max-width: 960px;
+		padding: 0 10px;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		align-items: center;
+	}
+	ul {
+		padding: 0;
+   		margin: 0;
+    		text-align: right;
+	}
+	li {
+		display: inline-block;
+	}
+	a {
+		text-decoration: none;
+		padding: 1em 0.5em;
+		display: block;
+		}
+</style>

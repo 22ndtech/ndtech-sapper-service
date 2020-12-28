@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-  <title>Svelte News App</title>
+  <title>22nd Tech App</title>
 </svelte:head>
 
 <div class="homepage page">
