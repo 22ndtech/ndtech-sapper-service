@@ -34,7 +34,7 @@ code {
 }
 
 .navbar {
-	background: hsl(15, 100%, 50%);
+	background: hsl(239, 84%, 67%);
 	padding: 10px 20px;
 	display: flex;
 	align-items: center;
@@ -68,7 +68,7 @@ code {
 }
 
 .navbar .primary-button.new-story-button {
-	color: hsl(15, 100%, 55%);
+	color: hsl(239, 84%, 67%);
 	background: hsl(15, 100%, 98%);
 	text-decoration: none;
 	padding: 5px 10px;
@@ -194,7 +194,7 @@ code {
 }
 
 .primary-button {
-	background: hsl(15, 100%, 50%);
+	background: hsl(239, 84%, 67%);
 	outline: none;
 	padding: 10px 15px;
 	border: none;
@@ -206,7 +206,7 @@ code {
 }
 
 .primary-button:hover {
-	background: hsl(15, 100%, 58%);
+	background: hsl(239, 84%, 67%);
 }
 
 .primary-button:disabled {
@@ -279,7 +279,7 @@ code {
 
 .text-button {
 	background: transparent;
-	color: hsl(15, 100%, 50%);
+	color: hsl(239, 84%, 67%);
 	border: none;
 	outline: none;
 	padding: 10px 15px;
@@ -363,7 +363,7 @@ code {
 }
 
 .sort-option.active {
-	border-bottom-color: hsl(15, 100%, 50%);
+	border-bottom-color: hsl(239, 84%, 67%);
 }
 
 .error-page {
