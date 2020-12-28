@@ -48,16 +48,11 @@
     {:else}
       <a
         class="navbar-link"
-        href="/login"
+        href="https://github.com/login/oauth/authorize?client_id=2d4079dfff80ceb2c3a7"
       >
-        Log in
+        Log in with Github
       </a>
-      <a
-        class="navbar-link"
-        href="/signup"
-      >
-        Sign up
-      </a>
+
     {/if}
   </div>
 </nav>
